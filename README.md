@@ -1,25 +1,25 @@
 
-#Vehicle Speed Detection System
+# Vehicle Speed Detection System
 
-#Project Overview
+# Project Overview
 
 The Vehicle Speed Detection System is a computer vision-based application that detects moving vehicles from video streams and estimates their speed in real-time. This system uses advanced image processing techniques along with deep learning models to identify vehicles and calculate their speed accurately.
 
-#This project can be used in:
+# This project can be used in:
 
 Traffic monitoring systems
 Smart city applications
 Law enforcement (overspeed detection)
 Automated surveillance systems
 
-#Objectives
+# Objectives
 
 Detect vehicles from video footage using object detection algorithms
 Track vehicle movement across frames
 Estimate vehicle speed using distance-time calculation
 Provide real-time output with bounding boxes and speed labels
 
-#Technologies Used
+# Technologies Used
 
 Python
 OpenCV
@@ -28,7 +28,7 @@ YOLO (You Only Look Once)
 Optical Flow Algorithm
 SciPy / Math libraries
 
-#System Architecture
+# System Architecture
 
 Input Module
     Takes video input (CCTV footage or recorded video)
@@ -47,7 +47,7 @@ Output Module
     Displays vehicle speed on screen
     Highlights overspeed vehicles
 
-#Working Principle
+# Working Principle
 
 The system processes video frames and detects vehicles using a trained YOLO model. Once detected, the movement of vehicles is tracked frame-by-frame. The speed is calculated using:
 
@@ -58,7 +58,7 @@ Where:
 Distance = displacement of vehicle in pixels (converted to real-world units)
 Time = difference between frames
 
-#Features
+# Features
 
 Real-time vehicle detection
 Accurate speed estimation
@@ -66,7 +66,7 @@ Supports multiple vehicles simultaneously
 Works with CCTV and recorded videos
 Easy to integrate with surveillance systems
 
-#Usage
+# Usage
 
 Run the main script:
 
@@ -78,19 +78,19 @@ Input video path
     Speed limit threshold
     Detection parameters
 
-#Results
+# Results
 
 Vehicles are detected with bounding boxes
 Speed is displayed on each vehicle
 Overspeed vehicles are highlighted
 
-#Limitations
+# Limitations
 
 Accuracy depends on camera angle and calibration
 Requires good lighting conditions
 Pixel-to-distance conversion needs manual tuning
 
-#Future Scope
+# Future Scope
 
 Integration with AI-based traffic management systems
 Automatic number plate recognition (ANPR)
